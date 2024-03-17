@@ -6,12 +6,13 @@ This project implements a backend server in Node.js with MongoDB for storing pro
 
 - **MongoDB Setup**: Utilized `mongodb-memory-server` for ease of testing. Installed required packages via npm or yarn.
 
-- **Code Implementation**:
+- **Code Implementation**:     
     - Connected to the MongoDB memory server using `mongoose`.
     - Defined a `Profile` schema and model for storing profile data.
     - Implemented routes for:
         - Creating new profiles (`POST /profile`).
         - Retrieving profiles by ID (`GET /profile/:id`).
+        - Profile render page (`http://localhost:3000/1`)
 
 ## Part 2: Backend API for Commenting and Voting
 
